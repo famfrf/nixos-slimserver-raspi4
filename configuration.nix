@@ -6,6 +6,7 @@
   imports = [
     ./secrets.nix
 
+    ./deactivate-ipv6.nix
     ./services/slimserver/default.nix
   ];
 
