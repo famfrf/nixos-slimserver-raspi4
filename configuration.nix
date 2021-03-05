@@ -1,7 +1,7 @@
 { config, pkgs, lib, ... }:
 {
   services.sshd.enable = true;
-  networking.hostName = "squeezebox-server";
+  networking.hostName = "mediaserver";
 
   imports = [
     ./secrets.nix
